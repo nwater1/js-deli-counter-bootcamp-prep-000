@@ -31,7 +31,7 @@ function currentLine(katzDeli) {
     
     var word = "The line is currently:"
     for (var i = 0; i < katzDeli.length; i++ ) {
-      word += `${i+1}. ${katzDeli[i]}`
+      word += ` ${i+1}. ${katzDeli[i]}`
       if (katzDeli.length - i > 1) {
         
         var comma = "," 
